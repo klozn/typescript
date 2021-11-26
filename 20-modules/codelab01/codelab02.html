@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+    <title>Codelab02</title>
+</head>
+<body>
+<section id="content">
+    <!-- In here, we'll generate content -->
+</section>
+
+<script type="module">
+    import {Starship} from "./starship.js";
+
+    const starship = new Starship('Dreadnought');
+    document.getElementById('content').innerText = starship.name;
+</script>
+</body>
+</html>
